@@ -7,18 +7,14 @@ By default Claude Code cycles through "Thinking...", "Analyzing...", "Processing
 ## Install
 
 ```
-claude plugin install drewkinney/spinner-swap
+mkdir -p ~/.claude/skills/spinner-swap && curl -o ~/.claude/skills/spinner-swap/SKILL.md https://raw.githubusercontent.com/drewkinney/spinner-swap/main/SKILL.md
 ```
+
+Restart Claude Code. Then use `/spinner-swap` or just tell Claude what you want.
 
 ## Use
 
-```
-/spinner-swap
-```
-
-Or just tell Claude what you want:
-
-- **"swap my spinners"** → drops you into BYOL mode, paste your list
+- **"swap my spinners"** → paste your list, done
 - **"give me punk verbs"** → Theme Mode, Claude asks a few questions and builds the list
 - **"make it 1970s Italian horror"** → Theme Mode, same deal
 
