@@ -1,0 +1,8 @@
+{
+  "name": "spinner-swap",
+  "description": "Swap Claude Code's spinner verbs with any list you want. One command, your words, done.",
+  "author": {
+    "name": "Drew Kinney",
+    "url": "https://github.com/drewkinney"
+  }
+}
